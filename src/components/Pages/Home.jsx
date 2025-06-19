@@ -548,22 +548,22 @@ useGSAP(() => {
 
                             {/* Top image (span 2 columns) */}
                             <div className="col-span-2">
-                                <img src="../src/assets/meetings/meet1.jpg" alt="Top" className="w-full h-full object-cover rounded-lg" />
+                                <img src="https://images.unsplash.com/photo-1672917187338-7f81ecac3d3f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWVldGluZyUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="Top" className="w-full h-full object-cover rounded-lg" />
                             </div>
 
                             {/* Left image in second row */}
                             <div>
-                                <img src="../src/assets/meetings/meet2.jpg" alt="Left" className="w-full h-full object-cover rounded-lg" />
+                                <img src="https://images.unsplash.com/photo-1538688423619-a81d3f23454b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fG1lZXRpbmclMjBwZW9wbGV8ZW58MHx8MHx8fDA%3D" alt="Left" className="w-full h-full object-cover rounded-lg" />
                             </div>
 
                             {/* Right image in second row */}
                             <div>
-                                <img src="../src/assets/meetings/meet3.jpg" alt="Right" className="w-full h-full object-cover rounded-lg" />
+                                <img src="https://images.unsplash.com/photo-1677078610152-8a627d8ced8d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWVldGluZyUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="Right" className="w-full h-full object-cover rounded-lg" />
                             </div>
 
                             {/* Bottom image (span 2 columns) */}
                             <div className="col-span-2">
-                                <img src="../src/assets/meetings/meet4.jpg" alt="Bottom" className="w-full h-full object-cover rounded-lg" />
+                                <img src="https://images.unsplash.com/photo-1716703435453-a7733d600d68?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lZXRpbmclMjBwZW9wbGV8ZW58MHx8MHx8fDA%3D" alt="Bottom" className="w-full h-full object-cover rounded-lg" />
                             </div>
 
                         </div>
