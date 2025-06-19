@@ -530,7 +530,7 @@ useGSAP(() => {
 
                         </div>
 
-                        <div className="social-cards-cont w-full h-[65vh] grid grid-rows-2 grid-cols-2 gap-[0.9px] mt-10">
+                        <div className="social-cards-cont w-full h-[50vh] grid grid-rows-2 grid-cols-2 gap-[0.9px] mt-10">
  
                             <div className=" bg-gradient-to-br from-purple-400 via-blue-400  to-pink-400 blur-[0.04em]  w-full h-full object-cover flex justify-center items-center"><FaTwitter size={30} color='white' /></div>
                             <div className=" bg-gradient-to-tr from-purple-400 via-blue-400  to-pink-400 blur-[0.04em] w-full h-full object-cover flex justify-center items-center"><FaLinkedinIn size={30} color='white' /></div>
