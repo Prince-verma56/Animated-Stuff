@@ -313,8 +313,8 @@ useGSAP(() => {
     function useLenis() {
         useEffect(() => {
             const lenis = new Lenis({
-                duration: 3.2,
-                lerp: 11,
+                duration: 4.5,
+                lerp: 22,
                 smooth: true,
             });
 
@@ -393,7 +393,8 @@ useGSAP(() => {
                 <div className="video-area w-full object-cover rounded-lg h-[60%] bg-zinc-300 mt-3 flex items-center justify-center relative">
                     <video
                         ref={videoRef}
-                        src="src/assets/cards imgs/video1.mp4"
+                        // src="../src/assets/cards imgs/video1.mp4"
+                        src="https://cdn.pixabay.com/video/2023/01/31/148746-794599341_tiny.mp4"
                         loop
                         muted
                         controls

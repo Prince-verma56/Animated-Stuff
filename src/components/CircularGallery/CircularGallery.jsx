@@ -361,52 +361,52 @@ class App {
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
       {
-        image: `https://picsum.photos/seed/1/800/600?grayscale`,
-        text: "Bridge",
+        image: `https://images.unsplash.com/photo-1680109231429-cc8c97843516?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjBiYW5kc3xlbnwwfDF8MHx8fDI%3D`,
+        text: "Live Concert",
       },
       {
-        image: `https://picsum.photos/seed/2/800/600?grayscale`,
-        text: "Desk Setup",
+        image: `https://images.unsplash.com/photo-1681142206469-4cdd1345f46d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fG11c2ljJTIwYmFuZHN8ZW58MHwxfDB8fHwy`,
+        text: "Drums Setup",
       },
       {
-        image: `https://picsum.photos/seed/3/800/600?grayscale`,
-        text: "Waterfall",
+        image: `https://images.unsplash.com/photo-1717033907972-8bf47ed95a04?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fG11c2ljJTIwYmFuZHN8ZW58MHwxfDB8fHwy`,
+        text: "Vibing",
       },
       {
-        image: `https://picsum.photos/seed/4/800/600?grayscale`,
-        text: "Strawberries",
+        image: `https://images.unsplash.com/photo-1722505530530-1ef00423d728?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fG11c2ljJTIwYmFuZHN8ZW58MHwxfDB8fHwy`,
+        text: "Crowd Performances",
       },
       {
-        image: `https://picsum.photos/seed/5/800/600?grayscale`,
-        text: "Deep Diving",
+        image: `https://images.unsplash.com/photo-1557516426-b5a1f2991bf6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fG11c2ljJTIwYmFuZHN8ZW58MHwxfDB8fHwy`,
+        text: "Rhythm & Style",
       },
       {
-        image: `https://picsum.photos/seed/16/800/600?grayscale`,
-        text: "Train Track",
+        image: `https://images.unsplash.com/photo-1722505531169-aec8a8ebe4b2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHxtdXNpYyUyMGJhbmRzfGVufDB8MXwwfHx8Mg%3D%3D`,
+        text: "Beat Driven",
       },
       {
-        image: `https://picsum.photos/seed/17/800/600?grayscale`,
+        image: `https://images.unsplash.com/photo-1571575522341-be760794a35b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ4fHxtdXNpYyUyMGJhbmRzfGVufDB8MXwwfHx8Mg%3D%3De`,
         text: "Santorini",
       },
       {
-        image: `https://picsum.photos/seed/8/800/600?grayscale`,
-        text: "Blurry Lights",
+        image: `https://images.unsplash.com/photo-1722505789269-f25b5690cd14?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ0fHxtdXNpYyUyMGJhbmRzfGVufDB8MXwwfHx8Mg%3D%3D`,
+        text: "Bass Mode On",
       },
       {
-        image: `https://picsum.photos/seed/9/800/600?grayscale`,
-        text: "New York",
+        image: `https://images.unsplash.com/photo-1598214012909-9b1874af3cfc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjAxfHxtdXNpYyUyMGJhbmRzfGVufDB8MXwwfHx8Mg%3D%3D`,
+        text: "Born to Groove",
       },
       {
-        image: `https://picsum.photos/seed/10/800/600?grayscale`,
-        text: "Good Boy",
+        image: `https://images.unsplash.com/photo-1561125623-f1d3e802731a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTgyfHxtdXNpYyUyMGJhbmRzfGVufDB8MXwwfHx8Mg%3D%3D`,
+        text: "Pure Audio Power",
       },
       {
-        image: `https://picsum.photos/seed/21/800/600?grayscale`,
-        text: "Coastline",
+        image: `https://images.unsplash.com/photo-1577660097552-ef733c1399c4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc5fHxtdXNpYyUyMGJhbmRzfGVufDB8MXwwfHx8Mg%3D%3D`,
+        text: "Echo Culture",
       },
       {
-        image: `https://picsum.photos/seed/12/800/600?grayscale`,
-        text: "Palm Trees",
+        image: `https://images.unsplash.com/photo-1594277871259-46bbc308ad77?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc0fHxtdXNpYyUyMGJhbmRzfGVufDB8MXwwfHx8Mg%3D%3D`,
+        text: "Sonic Identity",
       },
     ];
     const galleryItems = items && items.length ? items : defaultItems;
