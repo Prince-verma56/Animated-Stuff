@@ -34,7 +34,7 @@ useGSAP(()=>{
    <>
    <div className=" ">
        <div className="card w-98 h-[60vh] rounded-b-2xl  overflow-hidden relative bottom-30 left-40 ">
-        <img src="./src/assets/cards imgs/Ryan Baser.jpg" className=' ' alt="" />
+        <img src="../src/assets/cards imgs/Ryan Baser.jpg" className=' ' alt="" />
        </div>
    </div>
    

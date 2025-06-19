@@ -548,22 +548,22 @@ useGSAP(() => {
 
                             {/* Top image (span 2 columns) */}
                             <div className="col-span-2">
-                                <img src="./src/assets/meetings/meet1.jpg" alt="Top" className="w-full h-full object-cover rounded-lg" />
+                                <img src="../src/assets/meetings/meet1.jpg" alt="Top" className="w-full h-full object-cover rounded-lg" />
                             </div>
 
                             {/* Left image in second row */}
                             <div>
-                                <img src="./src/assets/meetings/meet2.jpg" alt="Left" className="w-full h-full object-cover rounded-lg" />
+                                <img src="../src/assets/meetings/meet2.jpg" alt="Left" className="w-full h-full object-cover rounded-lg" />
                             </div>
 
                             {/* Right image in second row */}
                             <div>
-                                <img src="./src/assets/meetings/meet3.jpg" alt="Right" className="w-full h-full object-cover rounded-lg" />
+                                <img src="../src/assets/meetings/meet3.jpg" alt="Right" className="w-full h-full object-cover rounded-lg" />
                             </div>
 
                             {/* Bottom image (span 2 columns) */}
                             <div className="col-span-2">
-                                <img src="./src/assets/meetings/meet4.jpg" alt="Bottom" className="w-full h-full object-cover rounded-lg" />
+                                <img src="../src/assets/meetings/meet4.jpg" alt="Bottom" className="w-full h-full object-cover rounded-lg" />
                             </div>
 
                         </div>
